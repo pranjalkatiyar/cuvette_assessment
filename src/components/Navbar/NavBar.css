@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ebf0f5;
+  padding: 6px 20px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.logo {
+  padding-left: "1rem";
+}
+
+.profile {
+  display: flex; /* Use flexbox to arrange items in a row */
+  align-items: center;
+  /* Add styles for the profile link, e.g., adjust the color and text decoration */
+}
+
+.profile-sections {
+  display: flex; /* Arrange sections in a row */
+}
+
+.section {
+  margin-right: 10px; /* Add margin for spacing between sections */
+  /* Add styles for the sections */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.profile_sections_layout {
+  display: flex;
+  margin: 0.75rem;
+  padding: 1rem 1.5rem;
+  border: 2px solid #ebf0f5;
+  border-radius: 10px;
+  gap: 0.75rem;
+}

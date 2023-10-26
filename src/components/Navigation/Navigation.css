@@ -1,0 +1,26 @@
+nav ul {
+  padding-left: 0;
+  padding-right: 1rem;
+}
+
+.navBar {
+  color: "#566474";
+  font-size: 16px;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 3rem 0;
+  border-top-right-radius: 52px 54px;
+  border-bottom-right-radius: 46px 48px;
+  padding: 0rem;
+}
+
+.navBar .active {
+  background: #f7f8fa;
+  padding: 1rem 3rem;
+  border-top-right-radius: 52px 54px;
+  border-bottom-right-radius: 46px 48px;
+}
+
+.navDecoration {
+  text-decoration: none;
+}

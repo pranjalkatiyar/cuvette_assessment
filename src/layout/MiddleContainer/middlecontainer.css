@@ -1,0 +1,24 @@
+.middleContainer_middlecolumn {
+  flex: 1;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  border-right: 1px solid #ebf0f5;
+  justify-content: center;
+}
+
+.ellipseDiv {
+  position: relative;
+}
+
+.images {
+  position: relative;
+  top: -2.5rem;
+}
+
+.headingValue {
+  display: "flex";
+  flex-direction: "column";
+  text-align: "left";
+}

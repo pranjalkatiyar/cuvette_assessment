@@ -1,0 +1,35 @@
+.syllabus_div {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  padding-right: 0.25rem;
+  color: #566474;
+}
+
+.syllabus_div div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.25rem 0 0;
+  font-weight: bold;
+}
+
+progress {
+  width: 15rem;
+  height: 16px;
+  border-radius: 26px;
+}
+progress::-webkit-progress-bar {
+  background-color: rgba(255, 0, 0, 0.4);
+  border-radius: 26px;
+  opacity: 0.75;
+}
+progress::-webkit-progress-value {
+  background-color: red;
+  border-radius: 26px;
+}
+
+.percentage_styles {
+  font-size: 16px;
+  color: green;
+  font-weight: bold;
+}
